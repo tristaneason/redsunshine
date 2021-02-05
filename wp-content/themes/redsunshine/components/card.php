@@ -4,11 +4,12 @@
             <h2><?php the_title(); ?></h2>
         </a>
     </header>
-    <figure class="thumbnail">
-        <a href="<?php the_permalink(); ?>">
-            <?php the_post_thumbnail(); ?>
-        </a>
-    </figure>
+    <a href="<?php the_permalink(); ?>">
+        <figure
+            class="thumbnail"
+            style="background: url('<?= get_the_post_thumbnail_url(); ?>') center; background-size: cover;">
+        </figure>
+    </a>
     <div class="snippet">
         <?php the_excerpt(); ?>
     </div>

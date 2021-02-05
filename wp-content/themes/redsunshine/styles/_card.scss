@@ -1,6 +1,8 @@
 .card {
     border: 1px solid $lightGrey;
+    border-radius: .25rem;
     padding: 2rem;
+    position: relative;
     h2 {
         margin-top: 0;
         &:hover {
@@ -17,12 +19,14 @@
         }
     }
     .thumbnail {
-
+        height: 200px;
+        margin: 0 -2rem 1rem;
     }
     .snippet {
-
+        margin-bottom: 2rem;
     }
     footer {
-
+        bottom: 1rem;
+        position: absolute;
     }
 }
