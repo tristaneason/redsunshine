@@ -1,3 +1,7 @@
+<?php
+    $thumb_url = get_the_post_thumbnail_url();
+?>
+
 <article id="card-<?php the_ID(); ?>" data-id="<?php the_ID(); ?>" class="card">
     <header>
         <a href="<?php the_permalink(); ?>">
@@ -7,7 +11,7 @@
     <a href="<?php the_permalink(); ?>">
         <figure
             class="thumbnail"
-            style="background: url('<?= get_the_post_thumbnail_url(); ?>') center; background-size: cover;">
+            style="background: url('<?= $thumb_url; ?>') center; background-size: cover;">
         </figure>
     </a>
     <div class="snippet">
