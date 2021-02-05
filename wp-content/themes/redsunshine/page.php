@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<main id="templateStaticPage">
+<section id="templateStaticPage" class="container">
     <?php
-    while (have_posts()):
+    while (have_posts()) {
         the_post();
-        include __DIR__ . '/components/staticPage.php';
-    endwhile;
+        include __DIR__ . '/layouts/staticPage.php';
+    }
     ?>
-</main>
+</section>
 
 <?php get_footer(); ?>

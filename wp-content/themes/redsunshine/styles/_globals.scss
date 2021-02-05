@@ -1,0 +1,89 @@
+html,
+body {
+    color: $dark;
+    font-family: $fontBody, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 100%;
+    line-height: 1.75;
+    margin: 0;
+}
+
+a {
+    color: $red;
+    text-decoration: none;
+    &:hover {
+
+    }
+}
+
+article {
+    box-sizing: border-box;
+}
+
+button {
+    border: 0;
+    color: $yellow;
+    outline: 0;
+    &.red {
+        background: $red;
+    }
+    &.dark {
+        background: $dark;
+    }
+}
+
+div {
+    box-sizing: border-box;
+}
+
+footer {
+    box-sizing: border-box;
+}
+
+header {
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $dark;
+    font-family: $fontHeading, serif;
+    font-weight: 400;
+}
+
+h1 {
+    line-height: 1.5
+}
+
+h2 {
+    line-height: 1.5;
+}
+
+h3 {
+    line-height: 1.25;
+}
+
+h4 {
+    line-height: 1.25;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 3rem 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 1.5rem;
+}

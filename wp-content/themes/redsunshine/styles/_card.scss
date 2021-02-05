@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid $lightGrey;
+    padding: 2rem;
+    h2 {
+        margin-top: 0;
+        &:hover {
+            color: $red;
+        }
+    }
+    a {
+        color: $dark;
+        &:hover {
+            color: $red;
+        }
+        &.read-more {
+            color: $red;
+        }
+    }
+    .thumbnail {
+
+    }
+    .snippet {
+
+    }
+    footer {
+
+    }
+}

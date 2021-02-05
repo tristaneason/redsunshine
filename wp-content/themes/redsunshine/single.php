@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-<main id="templateArticle">
+<section id="templateArticle" class="container">
     <?php
-    while (have_posts()):
+    while (have_posts()) {
         the_post();
-        include __DIR__ . '/components/article.php';
-    endwhile;
+        include __DIR__ . '/layouts/article.php';
+    }
     ?>
 </main>
 

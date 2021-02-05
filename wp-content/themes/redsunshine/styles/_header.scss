@@ -1,0 +1,31 @@
+#headerTop {
+    background: $red;
+    padding: 1rem 0 0 0;
+    img#logo {
+        box-sizing: border-box;
+        padding: 0 2rem 1rem 2rem;
+    }
+    nav {
+        background: $dark;
+        color: $light;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                padding: 1.5rem;
+                &:hover {
+                    background: $darkGrey;
+                    cursor: pointer;
+                    a {
+                        color: $light;
+                    }
+                }
+            }
+        }
+        a {
+            color: $lightGrey;
+            font-weight: 500;
+        }
+    }
+}
